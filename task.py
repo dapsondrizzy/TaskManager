@@ -32,14 +32,6 @@ def clear_task():
                print('clear operation has been jinxed')
           break
 
-def reverse_tasks(word):
-
-     index=input('the task you want to reverse:')-1
-     for index,word in enumerate(word,start=1):
-          reverse=''
-          reverse+=word[-1:]
-          print(f'the reverse of task no{index} is :')
-          return reverse
                
 def show_tasks():
      print('Todo Manager')
